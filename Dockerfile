@@ -15,5 +15,5 @@ EXPOSE 8000
 RUN mkdir -p /etc/supervisor/conf.d
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
-COPY ./docker-entrypoint.sh ./docker-entrypoint.sh
+COPY --chmod=0755 ./docker-entrypoint.sh ./docker-entrypoint.sh
 ENTRYPOINT ["./docker-entrypoint.sh"]

@@ -1,9 +1,9 @@
 # Setup
-Make sure port 8000 is available, then run docker compose:
+Make sure port 8000 is available. If you are on Windows, change `docker-entrypoint.sh` line separators to LF, then run docker compose:
+
 ```bash
 sudo docker compose up -d --build
 ```
-
 because this is a test project the `.env` file is added to git
 
 ## Tests

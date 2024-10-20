@@ -1,0 +1,41 @@
+[
+  {
+    "model": "users.user",
+    "pk": "3a2ba0c5-3165-4722-ba0b-4c5f007575a9",
+    "fields": {
+      "mobile": "09120000111",
+      "password": "pbkdf2_sha256$600000$enKCoLJwSNycZKrC028CJj$iMdS3C1W1I7cdZ5uUVwXUu/Qm1ccTji9D8t+Xu1S4CY=",
+      "created_at": "2024-10-19T14:08:43.079276Z",
+      "updated_at": "2024-10-19T14:08:43.079276Z",
+      "is_staff": true,
+      "is_superuser": true,
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": "98e3ac6a-5e48-4adf-ab99-87a11e6aa489",
+    "fields": {
+      "mobile": "09120000222",
+      "password": "pbkdf2_sha256$600000$ZDLGu8EQa6RIV7s9wKtmxr$Xb0fgYa/IjR/R2y1Fvm54IBUe3NuEkez4Q4qLMVFH9E=",
+      "created_at": "2024-10-19T14:09:29.336073Z",
+      "updated_at": "2024-10-19T14:09:29.336073Z",
+      "is_staff": false,
+      "is_superuser": false,
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": "3756feb7-3372-4fac-bc4e-d147dc58bff0",
+    "fields": {
+      "mobile": "09120000333",
+      "password": "pbkdf2_sha256$600000$XPOqMYtYLi7WsK5qnWKxIh$WSIe/BPGU6gfvrSDAo35DC3PB89AqcpC1tny6x/xjFg=",
+      "created_at": "2024-10-19T14:09:34.980267Z",
+      "updated_at": "2024-10-19T14:09:34.980267Z",
+      "is_staff": false,
+      "is_superuser": false,
+      "is_active": true
+    }
+  }
+]
